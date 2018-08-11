@@ -7,9 +7,7 @@
 import tensorflow as tf
 from tensorflow.python.framework.errors_impl import OutOfRangeError, InvalidArgumentError
 import time
-'''
-景睿写的DNN
-'''
+
 class regression_dnn(object):
     def __init__(self, test_dataset, train_dataset,modelPath,logFilePath):
         self.test_dataset = test_dataset
