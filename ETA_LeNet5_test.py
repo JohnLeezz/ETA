@@ -3,10 +3,6 @@
 import tensorflow as tf
 from tensorflow.python.framework.errors_impl import OutOfRangeError, InvalidArgumentError
 import time as time
-
-
-
-
 class regression_cnn(object):
     def __init__(self,testDataSet,train_dataSet,outFile):
         self.testDataSet=testDataSet
