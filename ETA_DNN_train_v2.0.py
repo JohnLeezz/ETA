@@ -4,9 +4,7 @@
 import tensorflow as tf
 from tensorflow.python.framework.errors_impl import OutOfRangeError, InvalidArgumentError
 import time
-'''
-DNN增加层数,目前zeppelin服务端用的这一版
-'''
+
 class regression_dnn(object):
     def __init__(self, test_dataset, train_dataset,modelPath,logFilePath):
         self.test_dataset = test_dataset
