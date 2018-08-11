@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-# @Time    : 2018/6/1 16:32
-# @Author  : buf
-# @Email   : niuxinzan@cennavi.com.cn
-# @File    : ETA_DNN_test_v2.0.py
-# @Software: PyCharm
 import tensorflow as tf
 from tensorflow.python.framework.errors_impl import OutOfRangeError, InvalidArgumentError
 import time
